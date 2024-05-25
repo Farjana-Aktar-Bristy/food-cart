@@ -1,0 +1,131 @@
+body {
+    font-family: Poppins !important;
+}
+.sidebar {
+    padding-top: 20px;
+    background-color: #F1F2F7;
+}
+
+.nav a {
+    padding: 8px;
+    font-weight: 700;
+    color: #5a67ba !important;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}
+.nav a:hover{
+    background-color: #e4e7f4;
+    color: #5a67ba;
+    border-radius: 8px;
+}
+
+.sideLink {
+    text-decoration: none;
+}
+
+.navigation-bar {
+    border-bottom: 0.5px solid #C8CBD9;
+    /*height: 70px;*/
+}
+.navigation-bar-brand {
+    background-color: #F1F2F7;
+}
+.navbar a {
+    font-weight: 900;
+    font-size: 16px;
+    color: #5A67BA !important;
+    line-height: 11px;
+    letter-spacing: 0.5px;
+}
+
+.logo {
+    background-color: #5A67BA;
+    color: #ffffff;
+    margin-right: 5px;
+    border-radius: 50%;
+    font-weight: 700;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}
+
+.nav-link {
+    color: #A6ABC8 !important;
+    font-size: 12px;
+}
+.nav-link:hover {
+    color: #5A67BA !important;
+}
+
+.card .price-tag{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #a855f7;
+    color: #fff;
+    opacity: 70%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-edit {
+    font-weight: 600!important;
+    background-color: #f5f7fa !important;
+    color: #4caf4f !important;
+}
+
+.btn-edit:hover {
+    font-weight: 500!important;
+    background-color: #4caf4f !important;
+    color: #f5f7fa !important;
+}
+
+.btn-delete {
+    font-weight: 600!important;
+    background-color: #fee2e2 !important;
+    color: #ef4444 !important;
+}
+
+.btn-delete:hover {
+    font-weight: 500!important;
+    background-color: #ef4444 !important;
+    color: #fee2e2 !important;
+}
+
+.allFood-title{
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+}
+.createFood-title{
+    font-weight: 500;
+    font-size: 18px;
+    color: #1F384C;!important;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.btn.btn-primary {
+    color: #ffffff;
+    background-color: #5A67BA;
+    border-color: #5A67BA;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+
+img.loader {
+    height: 100px;
+    width: 100px;
+}
+.loader-div {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
